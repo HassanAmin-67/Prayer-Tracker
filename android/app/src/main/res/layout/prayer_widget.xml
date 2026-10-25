@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/widget_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="Prayer tracker" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="28" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="72"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="14" />
+
+            <FrameLayout
+                android:id="@+id/tap0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="58.4" />
+
+            <FrameLayout
+                android:id="@+id/tap1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="58.4" />
+
+            <FrameLayout
+                android:id="@+id/tap2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="58.4" />
+
+            <FrameLayout
+                android:id="@+id/tap3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="58.4" />
+
+            <FrameLayout
+                android:id="@+id/tap4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="58.4" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="14" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
